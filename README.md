@@ -1,2 +1,2 @@
-# RoyaleMc Localization
+# Localization
 Локализация проекта RoyaleMc
