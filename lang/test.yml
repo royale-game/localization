@@ -1,2 +1,1 @@
-hello: "<red>Ну привет! Дебил!"
-test: "<green>Тестовое сообщение 2."
+waiting: "<gray>Ожидание: <green><players>/<needplayers>"
