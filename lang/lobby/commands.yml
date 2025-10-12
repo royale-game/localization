@@ -1,0 +1,27 @@
+commands:
+  fly:
+    enabled: "<gray>Вы <green>включили <gray>полет"
+    disabled: "<gray>Вы <red>выключили <grayполет"
+    
+  gamemode:
+    usage: "<gray>Используй: /gm <0|1|2|3> [игрок]"
+    player-not-found: "<gray>Игрок не найден"
+    self: "<gray>Вы установили себе режим <mode>"
+    other: "<gray>Вы установили режим <mode> игроку <white><player>"
+    received: "<gray>Игрок <white><player> <gray>установил вам режим <mode>"
+    modes:
+      survival: "<green>Выживания"
+      creative: "<gold>Креатив"
+      adventure: "<blue>Приключения"
+      spectator: "<gray>Наблюдателя"
+  
+  scale:
+    invalid-range: "<gray>Размер должен быть от <red>0.1 <gray>до <red>10"
+    set: "<gray>Новый размер - <white><scale>"
+    reset: "<gray>Размер сброшен"
+  
+  spawn:
+    not-set: "<gray>Спавн не установлен"
+    teleported: "<gray>Вы телепортированы на спавн"
+    error: "<red>Ошибка при телепортации на спавн"
+    set: "<gray>Вы установили спавн"
