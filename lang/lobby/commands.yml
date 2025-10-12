@@ -16,7 +16,7 @@ commands:
       spectator: "<gray>Наблюдателя"
   
   scale:
-    invalid-range: "<gray>Размер должен быть от <red>0.1 <gray>до <red>10"
+    invalid-range: "<gray>Размер должен быть от <red><min> <gray>до <red><max>"
     set: "<gray>Новый размер - <white><scale>"
     reset: "<gray>Размер сброшен"
   
