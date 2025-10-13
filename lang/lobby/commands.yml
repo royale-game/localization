@@ -2,7 +2,6 @@ commands:
   fly:
     enabled: "<gray>Вы <green>включили <gray>полет"
     disabled: "<gray>Вы <red>выключили <grayполет"
-    
   gamemode:
     usage: "<gray>Используй: /gm <0|1|2|3> [игрок]"
     player-not-found: "<gray>Игрок не найден"
@@ -14,12 +13,10 @@ commands:
       creative: "<gold>Креатив"
       adventure: "<blue>Приключения"
       spectator: "<gray>Наблюдателя"
-  
   scale:
     invalid-range: "<gray>Размер должен быть от <red><min> <gray>до <red><max>"
     set: "<gray>Новый размер - <white><scale>"
     reset: "<gray>Размер сброшен"
-  
   spawn:
     not-set: "<gray>Спавн не установлен"
     teleported: "<gray>Вы телепортированы на спавн"
