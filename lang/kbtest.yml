@@ -1,0 +1,190 @@
+waiting: "&fИгроков&7: &6$players&7/&6$needPlayers"
+countdown: "&6$time;&fДо конца ожидания"
+countdown-actionbar: "&#FF8D21▶ &#FFDD6C$time &#FF8D21◀"
+
+start: |-
+  &r
+  &r &7| &#FF551F&lК&#FF5C1F&lо&#FF6320&lр&#FF6A20&lо&#FF7120&lл&#FF7820&lе&#FF7F21&lв&#FF8621&lс&#FF8D21&lк&#FF8621&lа&#FF7F21&lя &#FF7120&lб&#FF6A20&lи&#FF6320&lт&#FF5C1F&lв&#FF551F&lа &fначалась!
+  &r &7| &fПобедит сильнейший!
+  &r
+
+stop: |-
+  &r
+  &r &7| &#FF551F&lК&#FF5C1F&lо&#FF6320&lр&#FF6A20&lо&#FF7120&lл&#FF7820&lе&#FF7F21&lв&#FF8621&lс&#FF8D21&lк&#FF8621&lа&#FF7F21&lя &#FF7120&lб&#FF6A20&lи&#FF6320&lт&#FF5C1F&lв&#FF551F&lа &fзакончилась!
+  &r &7| &fУвидимся в следующий раз!
+  &r
+
+invalid-usage: " &#FF5E1F▶ &fНеверное использование"
+
+no-perm: " &#FF5E1F▶ &fУ вас недостаточно прав."
+
+pre-start-teleport: " &#FF5E1F▶ &fВы телепортированы на арену."
+
+pvp-true: " &#FF5E1F▶ &fPvP &#CFFF1Fвключено&f!"
+pvp-false: " &#FF5E1F▶ &fPvP &#FF551Fвыключено&f!"
+border-shrink: " &#FF5E1F▶ &fБарьер &#FFE71Fсужается&f, скорее в центр"
+death-spectator: " &#FF5E1F▶ &fВы &#FF1F55умерли &fи перешли в режим наблюдателя"
+
+end-close: " &#FF5E1F▶ &fЭндер мир закрыт"
+nether-close: " &#FF5E1F▶ &fНезер закрыт"
+
+kit-gived: " &#FF5E1F▶ &fВы &#C5FF1Fполучили &fсвой кит"
+
+kick:
+  death: "Вы умерли и выбыли из игры :("
+  disqualified: "Вас выгнали из игры"
+  is-active: "Игра уже идет, выберите другой режим"
+  full-server: "&fСервер забит, зайти могут только &e&lVIP &fигроки!"
+
+already-stop: " &#FF5E1F▶ &fИгра не запущена!"
+stage-notification: " &#FF5E1F▶ &fДо следующей стадии &#1F9BFF$time"
+
+sender:
+  start: " &#FF5E1F▶ &fВы запустили быструю игру"
+  stop: " &#FF5E1F▶ &fВы остановили игру"
+  kick: " &#FF5E1F▶ &fВы кикнули $player из игры"
+
+player-death: " &#FF5E1F▶ &fОдин из игроков умер! Осталось &#FFB01F$players&f!"
+
+item:
+  cannot-use: " &#FF5E1F▶ &fВы не можете использовать этот предмет"
+  head:
+    use: " &#FF5E1F▶ &fВы использовали голову!"
+  emerald-blade:
+    max-lvl: " &#FF5E1F▶ &fВаш клинок достиг &#C5FF1Fмаксимального &fуровня"
+    need-amount: " &#FF5E1F▶ &fДля улучшения нужно &#C5FF1F64 изумруда"
+    success-upgrade: " &#FF5E1F▶ &fВы &#C5FF1Fулучшили &fсвой клинок!"
+  dragon-katana:
+    blocked: " &#FF5E1F▶ &fНельзя телепортироваться в блоки!"
+  midas-sword:
+    sharpness-up: " &#FF5E1F▶ &fМеч Мидаса усилился!"
+  poseidon-trident:
+    lightning-blocked: " &#FF5E1F▶ &fНельзя телепортироваться в блоки!"
+  ender-bow:
+    mode-switched: " &#FF5E1F▶ &fРежим переключен"
+
+cooldown:
+  started: " &#FF5E1F▶ &fЗадержка для $item&7: &e$time &fсек"
+  remaining: " &#FF5E1F▶ &fЗадержка для $item&7: &e$time &fсек"
+  ready: "&7[$item&7] &fПерезарядка окончена!"
+
+craft:
+  available:
+    header: "&6Доступные крафты:"
+    item: " &7- &e$item &7(клик)"
+    hover: "&aНажми, чтобы скрафтить"
+  legendary: " &#FF5E1F▶ &fИгрок &#C5FF1F$player &fскрафтил $item"
+  limit:
+    player: " &#FF5E1F▶ &fВы исчерпали свой лимит."
+    server: " &#FF5E1F▶ &fЭтот предмет уже скрафтили."
+
+timer:
+  title: "&#FF8D21▶ &#FFDD6C$time &#FF8D21◀"
+  subtitle: "&fДо начала игры"
+
+block:
+  elytra: " &#FF5E1F▶ &fЭлитры запрещены"
+  shield: " &#FF5E1F▶ &fЩиты запрещены"
+  mace: " &#FF5E1F▶ &fБулава запрещена"
+
+stages:
+  border-shrink: "Барьер сужается: $time"
+  waiting:
+    name: "Ожидание"
+  pre-start:
+    name: "Подготовка"
+  start:
+    name: "Начало игры"
+  mining:
+    name: "Майнинг"
+  narrowing:
+    name: "Сужение"
+  nether-open:
+    name: "Открытие ада"
+  end-open:
+    name: "Открытие энда"
+  close:
+    name: "Финал"
+  stop:
+    name: "Конец"
+
+deathmatch:
+  timer:
+    title: "$time"
+    subtitle: "до начала"
+
+win:
+  message: " &#FF5E1F▶ &fВы выиграли битву!"
+  title: "&#C5FF1F&lП&#B6FF28&lо&#A7FF31&lб&#98FF39&lе&#89FF42&lд&#7AFF4B&lа"
+  subtitle: "&fВы выиграли!"
+
+# TODO: переделать конфигурацию для party, или вообще начать делать плагин для proxy.
+party:
+  already-in-party: "§cВы уже в пати."
+  created: "§fВы создали пати! Пригласить людей - /party invite <игрок>"
+  not-in-party: "§cВы не в пати."
+  only-leader-invite: "§cТолько лидер может приглашать."
+  cannot-invite-self: "§cВы не можете пригласить себя!"
+  max-members: "§cВы достигли лимит по приглашенным участникам!"
+  target-already-in-party: "§cИгрок уже в пати."
+  player-invited: "§eИгрок {player} приглашён в пати."
+  you-were-invited: "§eВас пригласили в пати игрока {player}. Напишите §a/party accept§e или §c/party decline"
+  only-leader-kick: "§cТолько лидер может исключать."
+  target-not-in-party: "§cИгрок не в вашей пати."
+  cannot-kick-self: "§cВы не можете исключить себя."
+  player-kicked: "§aИгрок {player} исключён из пати."
+  player-leave: "§aИгрок {player} вышел из пати."
+  you-were-kicked: "§cВы были исключены из пати."
+  you-were-leave: "§cВы вышли из пати."
+  no-invites: "§cУ вас нет приглашений."
+  not-exist-anymore: "§cКоманда больше не существует."
+  player-joined: "§aИгрок {player} вступил в команду."
+  invite-declined: "§cВы отклонили приглашение."
+  info: |
+    §dПати §8| §fИнформация о пати:
+    §r §7• §fЛидер: §7{leader}
+    §r §7• §fУчастники: §7{members}
+  disband: "§fПати была расформирована."
+  only-leader-disband: "§cТолько лидер может расформировать команду."
+  leader-quit: "§cЛидер пати вышел из игры. Новым лидером становится {leader}"
+  member-quit: "§cУчастник пати {member} вышел из игры"
+
+team:
+  already-in-team: "§cВы уже в команде."
+  no-colors-available: "§cНе удалось создать команду. Нет доступных цветов."
+  created: "§fВы создали команду #{id} §7({color}§7)"
+  not-in-team: "§cВы не в команде."
+  only-leader-invite: "§cТолько лидер может приглашать."
+  cannot-invite-self: "§cВы не можете пригласить себя!"
+  max-members: "§cВы достигли лимит по приглашенным участникам!"
+  target-already-in-team: "§cИгрок уже в команде."
+  player-invited: "§eИгрок {player} приглашён в команду."
+  you-were-invited: "§eВас пригласили в команду #{id}. Напишите §a/team accept§e или §c/team decline"
+  only-leader-kick: "§cТолько лидер может исключать."
+  target-not-in-team: "§cИгрок не в вашей команде."
+  cannot-kick-self: "§cВы не можете исключить себя."
+  player-kicked: "§aИгрок {player} исключён из команды."
+  player-leave: "§aИгрок {player} вышел из команды."
+  you-were-kicked: "§cВы были исключены из команды."
+  you-were-leave: "§cВы вышли из команды."
+  no-invites: "§cУ вас нет приглашений."
+  not-exist-anymore: "§cКоманда больше не существует."
+  player-joined: "§aИгрок {player} вступил в команду."
+  invite-declined: "§cВы отклонили приглашение."
+  info: |
+    §6Команда §8| §fИнформация о команде §7#{id} ({color}§7):
+    §r §7• §fЛидер: §7{leader}
+    §r §7• §fУчастники: §7{members}
+  disband: "§6Команды §8| §fКоманда #{id} была расформирована."
+  only-leader-disband: "§cТолько лидер может расформировать команду."
+  chat-format: "§6Команды §8| §7{player}: §f{message}"
+  leader-death: "§6Команды §8| §fЛидер команды {player} умер."
+  member-death: "§6Команды §8| §fИгрок команды {player} умер."
+  leader-quit: "§cЛидер команды {player} вышел из игры."
+  member-quit: "§cВаш тиммейт {player} вышел из игры"
+  team-death: "§6Команды §8| §fКоманда #{id} была полностью уничтожена!"
+
+vote:
+  start: " &#FF5E1F▶ &fГолосование началось - /vote"
+  end: " &#FF5E1F▶ &fГолосование закончилось, все команды получили бонусы и выбрали своих лидеров"
+  leader: " &#FF5E1F▶ &fПо итогам голосования лидером команды становится &6{player}"
