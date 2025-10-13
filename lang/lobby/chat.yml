@@ -1,18 +1,12 @@
 chat:
   format: "<type> <player>: <message>"
-  
   clear: "<gray>Чат был очищен игроком <gold><player>"
-  
   lock: "<gray>Вы <red>отключили <gray>чат"
   unlock: "<gray>Вы <green>включили <gray>чат"
-  
   already-lock: "<red>Чат уже отключен"
   already-unlock: "<red>Чат уже включен"
-  
   cooldown: "<red>Подождите <time> сек."
-  
-  muted: "<red>Чат отключен. Используйте /chat on"
-  
+  locked: "<red>Чат отключен. Используйте /chat on"
   type:
     local: "<gray>(чат)"
     vip: "<yellow>(вип чат)"
