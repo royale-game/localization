@@ -47,6 +47,10 @@ sender:
 player-death: "<#FF5E1F>▶ <white>Один из игроков умер! Осталось <#FFB01F><players><white>!"
 
 item:
+  book:
+    name: "Крафты"
+  vote:
+    name: "Голосование"
   cannot-use: "<#FF5E1F>▶ <white>Вы не можете использовать этот предмет"
   head:
     use: "<#FF5E1F>▶ <white>Вы использовали голову!"
@@ -95,14 +99,19 @@ stages:
     name: "Подготовка"
   start:
     name: "Начало игры"
+    title: "Игра началась"
   mining:
     name: "Майнинг"
+    title: "Майнинг фаза"
   narrowing:
     name: "Сужение"
+    title: "Карта сужается"
   nether-open:
     name: "Открытие ада"
+    title: "Ад открылся"
   end-open:
     name: "Открытие энда"
+    title: "Энд открылся"
   close:
     name: "Финал"
   stop:
@@ -187,3 +196,46 @@ vote:
   start: "<#FF5E1F>▶ <white>Голосование началось - /vote"
   end: "<#FF5E1F>▶ <white>Голосование закончилось, все команды получили бонусы и выбрали своих лидеров"
   leader: "<#FF5E1F>▶ <white>По итогам голосования лидером команды становится <gold><player>"
+  fast:
+    results:
+      header: "<gradient:#FF8D21:#FF551F>▶</gradient> <white>Результаты голосований"
+      duration:
+        title: "<gold>Продолжительность игры:"
+        option: " <gray>- <white><name><gray>: <yellow><votes> голосов"
+        selected: "<green>Выбрано: <gold><selected>"
+      items:
+        title: "<gold>Запрет предметов:"
+        option: " <gray>- <white><name><gray>: <green><allow>✓</green> / <red><disallow>✗</red> - <status>"
+        status-allowed: "<green>РАЗРЕШЕН"
+        status-banned: "<red>ЗАПРЕЩЕН"
+      banned-items:
+        title: "<green>Запрещенные предметы:"
+        none: "<gold>нет"
+        list: "<gold><items>"
+      footer: "<gradient:#FF8D21:#FF551F>◀</gradient>"
+
+    duration-options:
+      SHORT:
+        name: "Короткая"
+      MEDIUM:
+        name: "Средняя"
+      EXTENDED:
+        name: "Расширенная"
+      LONG:
+        name: "Длинная"
+
+    item-options:
+      ELYTRA:
+        name: "Элитры"
+      SHIELD:
+        name: "Щиты"
+      MACE:
+        name: "Булавы"
+      ENDER_PEARL:
+        name: "Эндер-жемчуг"
+      GOLDEN_APPLE:
+        name: "Золотые яблоки"
+      ENCHANTED_GOLDEN_APPLE:
+        name: "Зачарованные золотые яблоки"
+      NONE:
+        name: "Нет запретов"
