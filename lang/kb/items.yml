@@ -1,0 +1,9 @@
+book: "Крафты"
+vote: "Голосование"
+use-blocked: "<#FF5E1F>▶ <white>Вы не можете использовать этот предмет."
+
+emerald-blade:
+  max-lvl: "<#FF5E1F>▶ <white>Клинок достиг <#C5FF1F>максимального уровня!"
+  need: "<#FF5E1F>▶ <white>Для улучшения нужно <#C5FF1F>64 изумруда."
+  upgraded: "<#FF5E1F>▶ <white>Вы улучшили свой клинок!"
+  downgraded: "<#FF5E1F>▶ <white>Ваш клинок ослаблен."
