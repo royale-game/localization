@@ -1,0 +1,19 @@
+waiting: "<white>Игроков<gray>: <gold><players><gray>/<gold><needPlayers>"
+
+countdown:
+  title: "<gold><time><white> до старта"
+  actionbar: "<#FF8D21>▶ <#FFDD6C><time> <#FF8D21>◀"
+
+start:
+  title: "<gradient:#FF551F:#FF8D21>Королевская битва началась!"
+  subtitle: "Победит сильнейший!"
+
+stop:
+  title: "<gradient:#FF551F:#FF8D21>Королевская битва закончилась!"
+  subtitle: "Увидимся в следующий раз!"
+
+notifications:
+  pvp-on: "<#FF5E1F>▶ <white>PvP <#CFFF1F>включено!"
+  pvp-off: "<#FF5E1F>▶ <white>PvP <#FF551F>выключено!"
+  border: "<#FF5E1F>▶ <white>Барьер <#FFE71F>сужается!"
+  death-spectator: "<#FF5E1F>▶ <white>Вы умерли и стали наблюдателем."
