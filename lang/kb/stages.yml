@@ -1,18 +1,25 @@
-start:
-  title: "<gradient:#FF551F:#FF8D21>Этап 1 начался!"
-  subtitle: "<white>Приготовьтесь к битве!"
-end:
-  title: "<gradient:#FF551F:#FF8D21>Этап 1 завершён!"
-  subtitle: "<white>Следующий скоро начнётся."
-
-stage2:
+stages:
+  border-shrink: "Барьер сужается: <time>"
+  waiting:
+    name: "Ожидание"
+  pre-start:
+    name: "Подготовка"
   start:
-    title: "<gradient:#FF8D21:#FFD21F>Этап 2 начался!"
-    subtitle: "<white>Включено PvP!"
-  end:
-    title: "<gradient:#FF8D21:#FFD21F>Этап 2 завершён!"
-    subtitle: "<white>Подготовка к финалу."
-
-final:
-  title: "<gradient:#FFD21F:#FF551F>Финал!"
-  subtitle: "<white>Определите победителя!"
+    name: "Начало игры"
+    title: "Игра началась"
+  mining:
+    name: "Майнинг"
+    title: "Майнинг фаза"
+  narrowing:
+    name: "Сужение"
+    title: "Карта сужается"
+  nether-open:
+    name: "Открытие ада"
+    title: "Ад открылся"
+  end-open:
+    name: "Открытие энда"
+    title: "Энд открылся"
+  close:
+    name: "Финал"
+  stop:
+    name: "Конец"
