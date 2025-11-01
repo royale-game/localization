@@ -1,14 +1,34 @@
-created: "<white>Вы создали команду #<id> <gray>(<color><gray>)"
-disbanded: "<gold>Команда #<id> была расформирована."
-
-chat: "<gold>Команды <dark_gray>| <gray><player>: <white><message>"
-
-leader-death: "<gold>Команды <dark_gray>| <white>Лидер <player> умер."
-member-quit: "<red>Ваш тиммейт <player> вышел из игры."
-death: "<gold>Команды <dark_gray>| <white>Команда #<id> уничтожена!"
-
-invite:
-  sent: "<yellow>Игрок <player> приглашён в команду."
-  received: "<yellow>Вы были приглашены в команду игроком <player>."
-  accepted: "<green><player> принял приглашение."
-  declined: "<red><player> отклонил приглашение."
+team:
+  already-in-team: "<red>Вы уже в команде."
+  no-colors-available: "<red>Не удалось создать команду. Нет доступных цветов."
+  created: "<white>Вы создали команду #<id> <gray>(<color><gray>)"
+  not-in-team: "<red>Вы не в команде."
+  only-leader-invite: "<red>Только лидер может приглашать."
+  cannot-invite-self: "<red>Вы не можете пригласить себя!"
+  max-members: "<red>Вы достигли лимит по приглашенным участникам!"
+  target-already-in-team: "<red>Игрок уже в команде."
+  player-invited: "<yellow>Игрок <player> приглашён в команду."
+  you-were-invited: "<yellow>Вас пригласили в команду #<id>. Напишите <green>/team accept</green> или <red>/team decline</red>"
+  only-leader-kick: "<red>Только лидер может исключать."
+  target-not-in-team: "<red>Игрок не в вашей команде."
+  cannot-kick-self: "<red>Вы не можете исключить себя."
+  player-kicked: "<green>Игрок <player> исключён из команды."
+  player-leave: "<green>Игрок <player> вышел из команды."
+  you-were-kicked: "<red>Вы были исключены из команды."
+  you-were-leave: "<red>Вы вышли из команды."
+  no-invites: "<red>У вас нет приглашений."
+  not-exist-anymore: "<red>Команда больше не существует."
+  player-joined: "<green>Игрок <player> вступил в команду."
+  invite-declined: "<red>Вы отклонили приглашение."
+  info: |-
+    <gold>Команда <dark_gray>| <white>Информация о команде <gray>#<id> (<color><gray>):
+    <reset> <gray>• <white>Лидер: <gray><leader>
+    <reset> <gray>• <white>Участники: <gray><members>
+  disband: "<gold>Команды <dark_gray>| <white>Команда #<id> была расформирована."
+  only-leader-disband: "<red>Только лидер может расформировать команду."
+  chat-format: "<gold>Команды <dark_gray>| <gray><player>: <white><message>"
+  leader-death: "<gold>Команды <dark_gray>| <white>Лидер команды <player> умер."
+  member-death: "<gold>Команды <dark_gray>| <white>Игрок команды <player> умер."
+  leader-quit: "<red>Лидер команды <player> вышел из игры."
+  member-quit: "<red>Ваш тиммейт <player> вышел из игры"
+  team-death: "<gold>Команды <dark_gray>| <white>Команда #<id> была полностью уничтожена!"
