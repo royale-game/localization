@@ -1,9 +1,30 @@
-book: "Крафты"
-vote: "Голосование"
-use-blocked: "<#FF5E1F>▶ <white>Вы не можете использовать этот предмет."
+item:
+  book:
+    name: "Крафты"
+  vote:
+    name: "Голосование"
+  cannot-use: "<#FF5E1F>▶ <white>Вы не можете использовать этот предмет"
+  head:
+    use: "<#FF5E1F>▶ <white>Вы использовали голову!"
+  emerald-blade:
+    max-lvl: "<#FF5E1F>▶ <white>Ваш клинок достиг <#C5FF1F>максимального <white>уровня"
+    need-amount: "<#FF5E1F>▶ <white>Для улучшения нужно <#C5FF1F>64 изумруда"
+    success-upgrade: "<#FF5E1F>▶ <white>Вы <#C5FF1F>улучшили <white>свой клинок!"
+  dragon-katana:
+    blocked: "<#FF5E1F>▶ <white>Нельзя телепортироваться в блоки!"
+  midas-sword:
+    sharpness-up: "<#FF5E1F>▶ <white>Меч Мидаса усилился!"
+  poseidon-trident:
+    lightning-blocked: "<#FF5E1F>▶ <white>Нельзя телепортироваться в блоки!"
+  ender-bow:
+    mode-switched: "<#FF5E1F>▶ <white>Режим переключен"
 
-emerald-blade:
-  max-lvl: "<#FF5E1F>▶ <white>Клинок достиг <#C5FF1F>максимального уровня!"
-  need: "<#FF5E1F>▶ <white>Для улучшения нужно <#C5FF1F>64 изумруда."
-  upgraded: "<#FF5E1F>▶ <white>Вы улучшили свой клинок!"
-  downgraded: "<#FF5E1F>▶ <white>Ваш клинок ослаблен."
+craft:
+  available:
+    header: "<gold>Доступные крафты:"
+    item: " <gray>- <yellow><item> <gray>(клик)"
+    hover: "<green>Нажми, чтобы скрафтить"
+  legendary: "<#FF5E1F>▶ <white>Игрок <#C5FF1F><player> <white>скрафтил <item>"
+  limit:
+    player: "<#FF5E1F>▶ <white>Вы исчерпали свой лимит."
+    server: "<#FF5E1F>▶ <white>Этот предмет уже скрафтили."
