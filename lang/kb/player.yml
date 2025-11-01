@@ -1,0 +1,12 @@
+teleport: "<#FF5E1F>▶ <white>Вы телепортированы на арену."
+kit-received: "<#FF5E1F>▶ <white>Вы <#C5FF1F>получили <white>свой кит."
+death: "<#FF5E1F>▶ <white>Один из игроков умер! Осталось <#FFB01F><players><white>!"
+
+win:
+  message: "<#FF5E1F>▶ <white>Вы выиграли битву!"
+  title: "<gradient:#C5FF1F:#7AFF4B>Победа</gradient>"
+  subtitle: "<white>Вы выиграли!"
+
+spectator:
+  title: "<gray>Вы наблюдаете"
+  subtitle: "<white>Следите за игроками!"
