@@ -1,2 +1,2 @@
-no-perm: "<red>У вас недостаточно прав"
-invalid-usage: "<red>Неверное использование"
+no-perm: "<white>ޗ <red>У вас недостаточно прав"
+invalid-usage: "<white>ޗ  <red>Неверное использование"
