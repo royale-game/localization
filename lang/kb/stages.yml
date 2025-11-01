@@ -1,5 +1,4 @@
 stages:
-  border-shrink: "Барьер сужается: <time>"
   waiting:
     name: "Ожидание"
   pre-start:
