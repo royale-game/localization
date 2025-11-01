@@ -1,0 +1,14 @@
+created: "<white>Вы создали команду #<id> <gray>(<color><gray>)"
+disbanded: "<gold>Команда #<id> была расформирована."
+
+chat: "<gold>Команды <dark_gray>| <gray><player>: <white><message>"
+
+leader-death: "<gold>Команды <dark_gray>| <white>Лидер <player> умер."
+member-quit: "<red>Ваш тиммейт <player> вышел из игры."
+death: "<gold>Команды <dark_gray>| <white>Команда #<id> уничтожена!"
+
+invite:
+  sent: "<yellow>Игрок <player> приглашён в команду."
+  received: "<yellow>Вы были приглашены в команду игроком <player>."
+  accepted: "<green><player> принял приглашение."
+  declined: "<red><player> отклонил приглашение."
