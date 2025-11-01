@@ -1,16 +1,47 @@
-start: "<#FF5E1F>▶ <white>Голосование началось - /vote"
-end: "<#FF5E1F>▶ <white>Голосование завершено!"
-leader: "<#FF5E1F>▶ <white>Лидером стал <gold><player>"
+vote:
+  start: "<#FF5E1F>▶ <white>Голосование началось - /vote"
+  end: "<#FF5E1F>▶ <white>Голосование закончилось, все команды получили бонусы и выбрали своих лидеров"
+  leader: "<#FF5E1F>▶ <white>По итогам голосования лидером команды становится <gold><player>"
+  fast:
+    results:
+      header: "<gradient:#FF8D21:#FF551F>▶</gradient> <white>Результаты голосований"
+      duration:
+        title: "<gold>Продолжительность игры:"
+        option: " <gray>- <white><name><gray>: <yellow><votes> голосов"
+        selected: "<green>Выбрано: <gold><selected>"
+      items:
+        title: "<gold>Запрет предметов:"
+        option: " <gray>- <white><name><gray>: <green><allow>✓</green> / <red><disallow>✗</red> - <status>"
+        status-allowed: "<green>РАЗРЕШЕН"
+        status-banned: "<red>ЗАПРЕЩЕН"
+      banned-items:
+        title: "<green>Запрещенные предметы:"
+        none: "<gold>нет"
+        list: "<gold><items>"
+      footer: "<gradient:#FF8D21:#FF551F>◀</gradient>"
 
-results:
-  header: "<gradient:#FF8D21:#FF551F>▶ Результаты голосования ◀"
+    duration-options:
+      SHORT:
+        name: "Короткая"
+      MEDIUM:
+        name: "Средняя"
+      EXTENDED:
+        name: "Расширенная"
+      LONG:
+        name: "Длинная"
 
-  duration:
-    short: "Короткая"
-    medium: "Средняя"
-    long: "Длинная"
-
-  items:
-    elytra: "Элитры"
-    shield: "Щиты"
-    mace: "Булавы"
+    item-options:
+      ELYTRA:
+        name: "Элитры"
+      SHIELD:
+        name: "Щиты"
+      MACE:
+        name: "Булавы"
+      ENDER_PEARL:
+        name: "Эндер-жемчуг"
+      GOLDEN_APPLE:
+        name: "Золотые яблоки"
+      ENCHANTED_GOLDEN_APPLE:
+        name: "Зачарованные золотые яблоки"
+      NONE:
+        name: "Нет запретов"
