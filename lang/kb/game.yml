@@ -1,19 +1,62 @@
 waiting: "<white>Игроков<gray>: <gold><players><gray>/<gold><needPlayers>"
+countdown: "<gold><time><white>;До конца ожидания"
+countdown-actionbar: "<#FF8D21>▶ <#FFDD6C><time> <#FF8D21>◀"
 
-countdown:
-  title: "<gold><time><white> до старта"
-  actionbar: "<#FF8D21>▶ <#FFDD6C><time> <#FF8D21>◀"
+start: |-
+  <reset>
+  <reset> <gray>| <gradient:#FF551F:#FF8D21>Королевская битва</gradient> <white>началась!
+  <reset> <gray>| <white>Победит сильнейший!
+  <reset>
 
-start:
-  title: "<gradient:#FF551F:#FF8D21>Королевская битва началась!"
-  subtitle: "Победит сильнейший!"
+stop: |-
+  <reset>
+  <reset> <gray>| <gradient:#FF551F:#FF8D21>Королевская битва</gradient> <white>закончилась!
+  <reset> <gray>| <white>Увидимся в следующий раз!
+  <reset>
 
-stop:
-  title: "<gradient:#FF551F:#FF8D21>Королевская битва закончилась!"
-  subtitle: "Увидимся в следующий раз!"
+pre-start-teleport: "<#FF5E1F>▶ <white>Вы телепортированы на арену."
 
-notifications:
-  pvp-on: "<#FF5E1F>▶ <white>PvP <#CFFF1F>включено!"
-  pvp-off: "<#FF5E1F>▶ <white>PvP <#FF551F>выключено!"
-  border: "<#FF5E1F>▶ <white>Барьер <#FFE71F>сужается!"
-  death-spectator: "<#FF5E1F>▶ <white>Вы умерли и стали наблюдателем."
+pvp-true: "<#FF5E1F>▶ <white>PvP <#CFFF1F>включено<white>!"
+pvp-false: "<#FF5E1F>▶ <white>PvP <#FF551F>выключено<white>!"
+border-shrink: "<#FF5E1F>▶ <white>Барьер <#FFE71F>сужается<white>, скорее в центр"
+death-spectator: "<#FF5E1F>▶ <white>Вы <#FF1F55>умерли <white>и перешли в режим наблюдателя"
+
+end-close: "<#FF5E1F>▶ <white>Эндер мир закрыт"
+nether-close: "<#FF5E1F>▶ <white>Незер закрыт"
+
+kit-gived: "<#FF5E1F>▶ <white>Вы <#C5FF1F>получили <white>свой кит"
+
+kick:
+  death: "Вы умерли и выбыли из игры :("
+  disqualified: "Вас выгнали из игры"
+  is-active: "Игра уже идет, выберите другой режим"
+  full-server: "<white>Сервер забит, зайти могут только <yellow><bold>VIP <white>игроки!"
+
+already-stop: "<#FF5E1F>▶ <white>Игра не запущена!"
+stage-notification: "<#FF5E1F>▶ <white>До следующей стадии <#1F9BFF><time>"
+
+sender:
+  start: "<#FF5E1F>▶ <white>Вы запустили быструю игру"
+  stop: "<#FF5E1F>▶ <white>Вы остановили игру"
+  kick: "<#FF5E1F>▶ <white>Вы кикнули <player> из игры"
+
+player-death: "<#FF5E1F>▶ <white>Один из игроков умер! Осталось <#FFB01F><players><white>!"
+
+timer:
+  title: "<#FF8D21>▶ <#FFDD6C><time> <#FF8D21>◀"
+  subtitle: "<white>До начала игры"
+
+block:
+  elytra: "<#FF5E1F>▶ <white>Элитры запрещены"
+  shield: "<#FF5E1F>▶ <white>Щиты запрещены"
+  mace: "<#FF5E1F>▶ <white>Булава запрещена"
+
+deathmatch:
+  timer:
+    title: "<time>"
+    subtitle: "до начала"
+
+win:
+  message: "<#FF5E1F>▶ <white>Вы выиграли битву!"
+  title: "<gradient:#C5FF1F:#7AFF4B>Победа</gradient>"
+  subtitle: "<white>Вы выиграли!"
