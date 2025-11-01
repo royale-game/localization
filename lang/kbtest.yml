@@ -14,10 +14,6 @@ stop: |-
   <reset> <gray>| <white>Увидимся в следующий раз!
   <reset>
 
-invalid-usage: "<#FF5E1F>▶ <white>Неверное использование"
-
-no-perm: "<#FF5E1F>▶ <white>У вас недостаточно прав."
-
 pre-start-teleport: "<#FF5E1F>▶ <white>Вы телепортированы на арену."
 
 pvp-true: "<#FF5E1F>▶ <white>PvP <#CFFF1F>включено<white>!"
