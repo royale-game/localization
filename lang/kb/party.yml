@@ -1,0 +1,14 @@
+created: "<white>Вы создали пати!"
+disbanded: "<white>Пати расформирована."
+
+invite:
+  sent: "<yellow>Игрок <player> приглашён в пати."
+  received: "<yellow>Вас пригласил <player>! <green>/party accept</green> или <red>/party decline</red>"
+  declined: "<red>Вы отклонили приглашение."
+
+member:
+  joined: "<green><player> вступил в пати."
+  left: "<red><player> вышел из пати."
+  kicked: "<red><player> исключён из пати."
+
+chat: "<gray>[Пати] <player>: <white><message>"
