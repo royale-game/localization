@@ -1,0 +1,3 @@
+start: "<#FF5E1F>▶ <white>Задержка для <item>: <yellow><time>с"
+remaining: "<#FF5E1F>▶ <white>Перезарядка для <item>: <yellow><time>с"
+ready: "<gray>[<item><gray>] <white>Перезарядка окончена!"
