@@ -2,4 +2,4 @@ player:
   join: "<green>+ <white><player>"
   quit: "<red>- <white><player>"
 
-unknown-command: "<red>Неизвестная команда <gray><arg>"
+unknown-command: "<red>Неизвестная команда"
