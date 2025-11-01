@@ -1,14 +1,29 @@
-created: "<white>Вы создали пати!"
-disbanded: "<white>Пати расформирована."
-
-invite:
-  sent: "<yellow>Игрок <player> приглашён в пати."
-  received: "<yellow>Вас пригласил <player>! <green>/party accept</green> или <red>/party decline</red>"
-  declined: "<red>Вы отклонили приглашение."
-
-member:
-  joined: "<green><player> вступил в пати."
-  left: "<red><player> вышел из пати."
-  kicked: "<red><player> исключён из пати."
-
-chat: "<gray>[Пати] <player>: <white><message>"
+party:
+  already-in-party: "<red>Вы уже в пати."
+  created: "<white>Вы создали пати! Пригласить людей - /party invite <player>"
+  not-in-party: "<red>Вы не в пати."
+  only-leader-invite: "<red>Только лидер может приглашать."
+  cannot-invite-self: "<red>Вы не можете пригласить себя!"
+  max-members: "<red>Вы достигли лимит по приглашенным участникам!"
+  target-already-in-party: "<red>Игрок уже в пати."
+  player-invited: "<yellow>Игрок <player> приглашён в пати."
+  you-were-invited: "<yellow>Вас пригласили в пати игрока <player>. Напишите <green>/party accept</green> или <red>/party decline</red>"
+  only-leader-kick: "<red>Только лидер может исключать."
+  target-not-in-party: "<red>Игрок не в вашей пати."
+  cannot-kick-self: "<red>Вы не можете исключить себя."
+  player-kicked: "<green>Игрок <player> исключён из пати."
+  player-leave: "<green>Игрок <player> вышел из пати."
+  you-were-kicked: "<red>Вы были исключены из пати."
+  you-were-leave: "<red>Вы вышли из пати."
+  no-invites: "<red>У вас нет приглашений."
+  not-exist-anymore: "<red>Команда больше не существует."
+  player-joined: "<green>Игрок <player> вступил в команду."
+  invite-declined: "<red>Вы отклонили приглашение."
+  info: |-
+    <dark_purple>Пати <dark_gray>| <white>Информация о пати:
+    <reset> <gray>• <white>Лидер: <gray><leader>
+    <reset> <gray>• <white>Участники: <gray><members>
+  disband: "<white>Пати была расформирована."
+  only-leader-disband: "<red>Только лидер может расформировать команду."
+  leader-quit: "<red>Лидер пати вышел из игры. Новым лидером становится <leader>"
+  member-quit: "<red>Участник пати <member> вышел из игры"
