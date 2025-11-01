@@ -1,0 +1,16 @@
+start: "<#FF5E1F>▶ <white>Голосование началось - /vote"
+end: "<#FF5E1F>▶ <white>Голосование завершено!"
+leader: "<#FF5E1F>▶ <white>Лидером стал <gold><player>"
+
+results:
+  header: "<gradient:#FF8D21:#FF551F>▶ Результаты голосования ◀"
+
+  duration:
+    short: "Короткая"
+    medium: "Средняя"
+    long: "Длинная"
+
+  items:
+    elytra: "Элитры"
+    shield: "Щиты"
+    mace: "Булавы"
