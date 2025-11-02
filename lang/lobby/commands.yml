@@ -1,24 +1,24 @@
 commands:
   fly:
-    enabled: "<gray>Вы <green>включили <gray>полет"
-    disabled: "<gray>Вы <red>выключили <grayполет"
+    enabled: "<white>ß <white>Вы <green>включили <white>полёт"
+    disabled: "<white>ß <white>Вы <red>выключили <white>полёт"
   gamemode:
-    usage: "<gray>Используй: /gm <0|1|2|3> [игрок]"
-    player-not-found: "<gray>Игрок не найден"
-    self: "<gray>Вы установили себе режим <mode>"
-    other: "<gray>Вы установили режим <mode> игроку <white><player>"
-    received: "<gray>Игрок <white><player> <gray>установил вам режим <mode>"
+    usage: "<white>ß <white>Используй: /gm <0|1|2|3> [игрок]"
+    player-not-found: "<white>ޗ <red>Игрок не найден"
+    self: "<white>ß <white>Вы установили себе режим <mode>"
+    other: "<white>ß <white>Вы установили режим <mode> игроку <player>"
+    received: "<white>ß <white>Игрок <gray><player> <white>установил вам режим <mode>"
     modes:
       survival: "<green>Выживания"
       creative: "<gold>Креатив"
       adventure: "<blue>Приключения"
       spectator: "<gray>Наблюдателя"
   scale:
-    invalid-range: "<gray>Размер должен быть от <red><min> <gray>до <red><max>"
-    set: "<gray>Новый размер - <white><scale>"
-    reset: "<gray>Размер сброшен"
+    invalid-range: "<white>ޗ <red> Размер должен быть от <color:#FFBB47><min></color> <red>до <color:#FFBB47><max></color>"
+    set: "<white>ß Новый размер - <color:#FFBB47><scale></color>"
+    reset: "<white>ß Размер сброшен"
   spawn:
-    not-set: "<gray>Спавн не установлен"
-    teleported: "<gray>Вы телепортированы на спавн"
-    error: "<red>Ошибка при телепортации на спавн"
-    set: "<gray>Вы установили спавн"
+    not-set: "<white>ß Спавн не установлен"
+    teleported: "<white>ß Вы телепортированы на спавн"
+    error: "<white>ޗ <red>Ошибка при телепортации на спавн"
+    set: "<white>ß Вы установили спавн"
