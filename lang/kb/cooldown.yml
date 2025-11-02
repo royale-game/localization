@@ -1,4 +1,4 @@
 cooldown:
-  started: "<#FF5E1F>▶ <white>Задержка для <item><gray>: <yellow><time> <white>сек"
-  remaining: "<#FF5E1F>▶ <white>Задержка для <item><gray>: <yellow><time> <white>сек"
-  ready: "<gray>[<item><gray>] <white>Перезарядка окончена!"
+  started: "<white>ޗ <red>Подождите ещё <color:#FFBB47><time> <red>секунд перед использованием"
+  remaining: "<white>ޗ <red>Подождите ещё <color:#FFBB47><time> <red>секунд перед использованием"
+  ready: "<white>ß <white>Завершилась перезарядка для <white><item>"
