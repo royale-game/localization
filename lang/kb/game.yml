@@ -4,20 +4,20 @@ countdown-actionbar: "<#FF8D21>▶ <#FFDD6C><time> <#FF8D21>◀"
 
 start: |-
   <reset> ê
-  <reset>    <b><gradient:#FF7929:#FFBB47:#FF7929>Королевская Битва</gradient></b> <white>началась!
-  <reset>    <white>Победит сильнейший!
+  <reset>     <b><gradient:#FF7929:#FFBB47:#FF7929>Королевская Битва</gradient></b> <white>началась
+  <reset>     <white>Пусть победит сильнейший!
   <reset>
 
 stop: |-
-  <reset>
-  <reset> <gray>| <gradient:#FF551F:#FF8D21>Королевская битва</gradient> <white>закончилась!
-  <reset> <gray>| <white>Увидимся в следующий раз!
+  <reset> ê
+  <reset>     <b><gradient:#FF7929:#FFBB47:#FF7929>Королевская Битва</gradient></b> <white>закончилась!
+  <reset>     <white>Увидимся в следующий раз!
   <reset>
 
-pre-start-teleport: "<#FF5E1F>▶ <white>Вы телепортированы на арену."
+pre-start-teleport: "<white>ß <white>Вы телепортированы на игровую арену"
 
-pvp-true: "<#FF5E1F>▶ <white>PvP <#CFFF1F>включено<white>!"
-pvp-false: "<#FF5E1F>▶ <white>PvP <#FF551F>выключено<white>!"
+pvp-true: "<white>ß На сервере <#69F080>включен <white>режим <#FF3333>PvP"
+pvp-false: "<white>ß На сервере <#FF3333>выключен <white>режим <#FF3333>PvP"
 border-shrink: "<#FF5E1F>▶ <white>Барьер <#FFE71F>сужается<white>, скорее в центр"
 death-spectator: "<#FF5E1F>▶ <white>Вы <#FF1F55>умерли <white>и перешли в режим наблюдателя"
 
