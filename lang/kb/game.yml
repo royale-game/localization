@@ -3,9 +3,9 @@ countdown: "<gold><time><white>;До конца ожидания"
 countdown-actionbar: "<#FF8D21>▶ <#FFDD6C><time> <#FF8D21>◀"
 
 start: |-
-  <reset> थ
-  <reset>  <b><gradient:#FF7929:#FFBB47:#FF7929>Королевская Битва</gradient></b> <white>началась!
-  <reset>  <white>Победит сильнейший!
+  <reset> ê
+  <reset>    <b><gradient:#FF7929:#FFBB47:#FF7929>Королевская Битва</gradient></b> <white>началась!
+  <reset>    <white>Победит сильнейший!
   <reset>
 
 stop: |-
