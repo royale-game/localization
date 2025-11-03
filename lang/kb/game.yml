@@ -10,37 +10,45 @@ start: |-
 
 stop: |-
   <reset> ê
-  <reset>     <b><gradient:#FF7929:#FFBB47:#FF7929>Королевская Битва</gradient></b> <white>закончилась!
-  <reset>     <white>Увидимся в следующий раз!
+  <reset>     <white>Барьер начал <#FFFD33>сужаться
+  <reset>     <white>Будьте <#FF3333>осторожнее!
   <reset>
 
-pre-start-teleport: "<white>ß <white>Вы телепортированы на игровую арену"
+pre-start-teleport: "<white>ß <white>Вы были телепортированы на игровую арену"
 
 pvp-true: "<white>ß На сервере <#69F080>включен <white>режим <#FF3333>PvP"
 pvp-false: "<white>ß На сервере <#FF3333>выключен <white>режим <#FF3333>PvP"
-border-shrink: "<#FF5E1F>▶ <white>Барьер <#FFE71F>сужается<white>, скорее в центр"
-death-spectator: "<#FF5E1F>▶ <white>Вы <#FF1F55>умерли <white>и перешли в режим наблюдателя"
+border-shrink: |-
+  <reset> ê
+  <reset>     <b><gradient:#FF7929:#FFBB47:#FF7929>Королевская Битва</gradient></b> <white>закончилась!
+  <reset>     <white>Увидимся в следующий раз!
+  <reset>
+death-spectator: "<white>ß <white>Вы <#FF3333>погибли <white>и перешли в режим <#33DAFF>наблюдателя"
 
-end-close: "<#FF5E1F>▶ <white>Эндер мир закрыт"
-nether-close: "<#FF5E1F>▶ <white>Незер закрыт"
+end-close: "<white>ß <#EF33FF>Эндер-мир <#FF3333>закрыт"
+nether-close: "<white>ß <#FF3333>Незер-мир <#FF3333>закрыт"
 
-kit-gived: "<#FF5E1F>▶ <white>Вы <#C5FF1F>получили <white>свой кит"
+kit-gived: "<white>ß Вы <#69F080>получили <white>свой <#FFBB47>игровой <white>набор"
 
 kick:
-  death: "Вы умерли и выбыли из игры :("
-  disqualified: "Вас выгнали из игры"
-  is-active: "Игра уже идет, выберите другой режим"
-  full-server: "<white>Сервер забит, зайти могут только <yellow><bold>VIP <white>игроки!"
+  death: "<white>ß Вы <#FF3333>умерли <white>и <#FF3333>выбыли <white>из игры <#33DAFF>=("
+  disqualified: "<white>ß Вас <#FF3333>выгнали <white>из игры"
+  is-active: "<white>ß <#FF3333>Игра уже активна. Пожалуйста, подождите"
+  full-server: "<white>ß  Сервер <#FF3333>забит, <white>зайти могут только <#FFBB47><bold>ᴠɪᴘ <reset><white>игроки!"
 
-already-stop: "<#FF5E1F>▶ <white>Игра не запущена!"
-stage-notification: "<#FF5E1F>▶ <white>До следующей стадии <#1F9BFF><time>"
+already-stop: "<white>ß Игра <#FF3333>не <white>запущена!"
+stage-notification: |-
+  <reset> ê
+  <reset>     <white>До <#33E2FF>следующей <white>стадии
+  <reset>     <white>осталось <#FFBB47><time> <white>секунд
+  <reset>
 
 sender:
-  start: "<#FF5E1F>▶ <white>Вы запустили быструю игру"
-  stop: "<#FF5E1F>▶ <white>Вы остановили игру"
-  kick: "<#FF5E1F>▶ <white>Вы кикнули <player> из игры"
+  start: "<white>ß <white>Вы запустили быструю игру"
+  stop: "<white>ß <white>Вы остановили игру"
+  kick: "<white>ß <white>Вы кикнули <player> из игры"
 
-player-death: "<#FF5E1F>▶ <white>Один из игроков умер! Осталось <#FFB01F><players><white>!"
+player-death: "<white>Ü <#FF3333><bold>УБИЙСТВО! <reset><white>Осталось <#FFBB47><players> <white>игроков"
 
 timer:
   title: "<#FF8D21>▶ <#FFDD6C><time> <#FF8D21>◀"
