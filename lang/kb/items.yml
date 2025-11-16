@@ -20,6 +20,10 @@ item:
     mode-switched: "<#FF5E1F>▶ <white>Режим переключен"
 
 craft:
+  item-unavailable: "<red>Этот предмет недоступен для крафта в этой игре"
+  available_legendary_items:
+    title: "<gold>Легендарные оружия в этой игре:"
+    item: "<gray>• <yellow><name>"
   available:
     header: "<gold>Доступные крафты:"
     item: " <gray>- <yellow><item> <gray>(клик)"
