@@ -1,0 +1,15 @@
+case:
+  prize: "Вы выиграли <prize>"
+  key:
+    not-enough: "У вас недостаточно ключей"
+    not-enough-target: "У игрока <player> только <amount> ключей типа <type>"
+    give-success: "Выдано <amount> ключей типа <type> игроку <player>"
+    take-success: "Забрано <amount> ключей типа <type> у игрока <player>"
+    set-success: "Установлено <amount> ключей типа <type> игроку <player>"
+    now-amount: "Теперь у игрока: <amount> ключей"
+    info-header: "Ключи игрока <player>"
+    info-types: "Типы ключей:"
+    info-line: "- <type>: <amount> ключей"
+    clear-success: "Очищено <amount> ключей у игрока <player>"
+  hat:
+    equip: "Вы надели шляпу <hat>"
