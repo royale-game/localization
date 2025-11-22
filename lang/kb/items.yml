@@ -21,7 +21,7 @@ item:
 
 craft:
   item-unavailable: "<red>Этот предмет недоступен для крафта в этой игре"
-  available_legendary_items:
+  available-legendary-items:
     title: "<gold>Легендарные оружия в этой игре:"
     item: "<gray>• <yellow><name>"
   available:
