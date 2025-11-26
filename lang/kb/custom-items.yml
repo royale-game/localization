@@ -1,6 +1,6 @@
 head:
   material: PLAYER_HEAD
-  name: "<white>Голова <gray><player>"
+  name: "<white>Голова <#FFBB47><player>"
   lore:
     - ""
     - "<white> При нажатии <#FFBB47>ПКМ"
@@ -12,24 +12,29 @@ head:
 
 heart:
   material: PAPER
-  name: "<red>Сердце"
+  name: "<gradient:#FF4D4D:#FF6868:#FF4D4D>Сердечко</gradient>"
   data: 20
   lore:
     - ""
-    - "<gray> При использовании"
-    - "<gray> даст доп. хп"
+    - "<white> При нажатии <#FFBB47>ПКМ"
+    - "<white> выдаёт <gradient:#4DFF88:#7EFFA9:#4DFF88>дополнительное</gradient> сердечко"
     - ""
 
 emeraldsword:
   material: DIAMOND_SWORD
   data: 3
-  name: "<green>Изумрудный клинок"
+  name: "<gradient:#4DFF88:#7EFFA9:#4DFF88>Изумрудный Клинок</gradient>"
   lore:
     - ""
-    - "<gray>Легендарный клинок, остроту которого"
-    - "<gray>можно улучшать с помощью изумрудов"
+    - "<white> Улучшайте <#FF4D4D>остроту <white>клинка,"
+    - "<white> благодаря <#7EFFA9>изумрудам"
     - ""
-    - "<yellow>SHIFT + ПКМ <gray>- открыть меню улучшения"
+    - "<white> <#FFBB47>ШИФТ + ПКМ <white>открывает меню улучшения"
+    - ""
+    - "<white> При <#FF4D4D>убийстве <white>мобов этим"
+    - "<white> оружием <#FF4DFEвыпадают> изумруды"
+    - ""
+    - ""
 
 artemisbows:
   material: BOW
