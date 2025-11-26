@@ -1,6 +1,6 @@
-waiting: "<white>Игроков<gray>: <gold><players><gray>/<gold><needPlayers>"
+waiting: "<white>Количество игроков<gray>: <#FFBB47><players><gray>≀<#FFBB47><needPlayers>"
 countdown: "<gold><time><white>;До конца ожидания"
-countdown-actionbar: "<#FF8D21>▶ <#FFDD6C><time> <#FF8D21>◀"
+countdown-actionbar: "<#FFBB47>▶ <#FFDD6C><time> <#FF8D21>◀"
 
 start: |-
   <reset> ê
@@ -51,13 +51,13 @@ sender:
 player-death: "<white>Ü <#FF3333><bold>УБИЙСТВО! <reset><white>Осталось <#FFBB47><players> <white>игроков"
 
 timer:
-  title: "<#FF8D21>▶ <#FFDD6C><time> <#FF8D21>◀"
+  title: "<#FFBB47>▶ <#FFDD6C><time> <#FFBB47>◀"
   subtitle: "<white>До начала игры"
 
 block:
-  elytra: "<#FF5E1F>▶ <white>Элитры запрещены"
-  shield: "<#FF5E1F>▶ <white>Щиты запрещены"
-  mace: "<#FF5E1F>▶ <white>Булава запрещена"
+  elytra: "<white>ß <white>Элитры запрещены"
+  shield: "<white>ß <white>Щит запрещён"
+  mace: "<white>ß <white>Булава запрещена"
 
 deathmatch:
   timer:
@@ -65,6 +65,6 @@ deathmatch:
     subtitle: "до начала"
 
 win:
-  message: "<#FF5E1F>▶ <white>Вы выиграли битву!"
-  title: "<gradient:#C5FF1F:#7AFF4B>Победа</gradient>"
-  subtitle: "<white>Вы выиграли!"
+  message: "<white>ß <white>Вы <#69F080>выиграли <white>битву!"
+  title: "<<#69F080>Победа</gradient>"
+  subtitle: "<white>Ваш рейтинг обновлён"
