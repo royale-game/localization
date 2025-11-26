@@ -3,14 +3,17 @@ head:
   name: "<white>Голова <gray><player>"
   lore:
     - ""
-    - "<gray> При использовании"
-    - "<gray> выдаст реген на 10 сек"
+    - "<white> При нажатии <#FFBB47>ПКМ"
+    - "<white> выдаёт эффект <gradient:#FF4DFD:#FF78FD:#FF4DFD>регенерации</gradient>"
+    - "<white> на 10 секунд"
+    - ""
+    - "<gray>(<white>ޗ<gray>) <white>Из неё <#69F080>можно <white>скрафтить <gradient:#FFD94D:#FFE584:#FFD94D>золотую</gradient> голову"
     - ""
 
 heart:
   material: PAPER
   name: "<red>Сердце"
-  data: 0
+  data: 20
   lore:
     - ""
     - "<gray> При использовании"
@@ -19,7 +22,7 @@ heart:
 
 emeraldsword:
   material: DIAMOND_SWORD
-  data: 0
+  data: 3
   name: "<green>Изумрудный клинок"
   lore:
     - ""
@@ -30,7 +33,7 @@ emeraldsword:
 
 artemisbows:
   material: BOW
-  data: 0
+  data: 3
   name: "<gold>Лук Артемиды"
   lore:
     - "<gray>Способности:"
@@ -39,7 +42,7 @@ artemisbows:
 
 dragonkatana:
   material: NETHERITE_SWORD
-  data: 0
+  data: 1
   name: "<gold>Катана Дракона"
   lore:
     - "<gray>Способности:"
@@ -48,7 +51,7 @@ dragonkatana:
 
 enderbow:
   material: BOW
-  data: 0
+  data: 2
   name: "<gold>Эндер-лук"
   lore:
     - ""
@@ -70,7 +73,7 @@ fugucannon:
 
 midassword:
   material: NETHERITE_SWORD
-  data: 0
+  data: 5
   name: "<gold>Меч Мидаса"
   lore:
     - "<gray>Легендарное оружие, превращающее врагов в золото."
@@ -79,7 +82,7 @@ midassword:
 
 poseidontrident:
   material: TRIDENT
-  data: 0
+  data: 3
   name: "<gold>Трезубец Посейдона"
   lore:
     - "<gray>Способности:"
@@ -90,7 +93,7 @@ poseidontrident:
 
 soniccrossbow:
   material: CROSSBOW
-  data: 0
+  data: 1
   name: "<gold>Арбалет Соника"
   lore:
     - "<gray>Способности:"
@@ -99,7 +102,7 @@ soniccrossbow:
 
 thugleggings:
   material: LEATHER_LEGGINGS
-  data: 0
+  data: 4
   name: "<gold>Штаны бандита"
   lore:
     - "<gray>Прочные штаны с усиленной защитой"
@@ -109,7 +112,7 @@ thugleggings:
 
 skeletonleggings:
   material: CHAINMAIL_LEGGINGS
-  data: 0
+  data: 5
   name: "<gray>Костяные Поножи"
   lore:
     - "<gray>Легкие поножи из костей скелета"
@@ -130,7 +133,7 @@ goldhead:
 
 firecrossbow:
   material: CROSSBOW
-  data: 0
+  data: 3
   name: "<gold>Огненный Арбалет"
   lore:
     - "<gray>Арбалет, стреляющий горящими болтами"
@@ -141,7 +144,7 @@ firecrossbow:
 
 cowboyboots:
   material: LEATHER_BOOTS
-  data: 0
+  data: 2
   name: "<gold>Ковбойские Сапоги"
   lore:
     - "<gray>Стильные сапоги настоящего ковбоя"
@@ -151,7 +154,7 @@ cowboyboots:
 
 coppersword:
   material: IRON_SWORD
-  data: 0
+  data: 2
   name: "<gold>Медный Меч"
   lore:
     - "<gray>Простой но надежный медный меч"
@@ -160,7 +163,7 @@ coppersword:
 
 copperbow:
   material: BOW
-  data: 0
+  data: 4
   name: "<gold>Медный Лук"
   lore:
     - "<gray>Лук из кованой меди"
@@ -169,7 +172,7 @@ copperbow:
 
 cactuschestplate:
   material: LEATHER_CHESTPLATE
-  data: 0
+  data: 1
   name: "<green>Кактусовый Нагрудник"
   lore:
     - "<gray>Колючая защита из кактусов"
@@ -180,7 +183,7 @@ cactuschestplate:
 
 axolotlboots:
   material: LEATHER_BOOTS
-  data: 0
+  data: 5
   name: "<light_purple>Сапоги Аксолотля"
   lore:
     - "<gray>Сапоги, вдохновленные аксолотлями"
@@ -190,7 +193,7 @@ axolotlboots:
 
 meltpickaxe:
   material: IRON_PICKAXE
-  data: 0
+  data: 1
   name: "<light_purple>Кирка плавильщика"
   lore:
     - "<gray>Эффективность II"
@@ -198,26 +201,26 @@ meltpickaxe:
 
 woodaxe:
   material: IRON_AXE
-  data: 0
+  data: 1
   name: "<light_purple>Топор дровосека"
   lore:
     - "<gray>Эффективность I"
 
 lightsword:
   material: DIAMOND_SWORD
-  data: 0
+  data: 2
   name: "<light_purple>Облегченный незеритовый меч"
 
 trailkit:
   material: BONE
-  data: 0
+  data: 5
   name: "<light_purple>Набор следопыта"
   lore:
     - "<gray>Стая голодных волков с отличным нюхом"
 
 airdrop:
   material: GREEN_DYE
-  data: 0
+  data: 2
   name: "<light_purple>Аирдроп"
   lore:
     - "<gray>пкм - аирдроп"
