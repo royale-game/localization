@@ -1,0 +1,10 @@
+waiting: "Набор игроков ажыдайте"
+start:
+  message: "Игра началась!"
+  title: "начало"
+
+end-open: "Энд открыт"
+end-close: "Энд закрыт"
+
+nether-open: "Незер открыт"
+nether-close: "Незер закрыт"
