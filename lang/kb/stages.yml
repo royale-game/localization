@@ -18,6 +18,10 @@ stages:
   end-open:
     name: "Открытие энда"
     title: "Энд открылся"
+  pre-dm:
+    name: "Пре-дезматч"
+  deathmatch:
+    name: "Дезматч"
   close:
     name: "Финал"
   stop:
