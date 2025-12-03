@@ -79,11 +79,15 @@ fugucannon:
 midassword:
   material: NETHERITE_SWORD
   data: 5
-  name: "<gold>Меч Мидаса"
+  name: "<b><gradient:#FFAE4D:#FFC357:#FFAE4D>Меч Мидаса</gradient></b>"
   lore:
-    - "<gray>Легендарное оружие, превращающее врагов в золото."
-    - "<gray>Острота усиливается при убийствах."
-    - "<gray>Жертвы роняют золотые самородки."
+    - ""
+    - "<white> При <gradient:#FF4D4D:#FF6666:#FF4D4D>убийстве</gradient> игрока острота"
+    - "<white> меча <gradient:#4DFFAC:#7CFFC2:#4DFFAC>увеличивается</gradient>, а из жертв"
+    - "<white> выпадают <gradient:#F2FF4D:#F5FF76:#F2FF4D>золотые</gradient> самородки"
+    - ""
+    - "<gray>(<white>ޗ<gray>) <white>Максимания острота<gray>: <#FFBB47>VIII"
+    - ""
 
 poseidontrident:
   material: TRIDENT
