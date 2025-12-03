@@ -48,11 +48,13 @@ artemisbows:
 dragonkatana:
   material: NETHERITE_SWORD
   data: 1
-  name: "<gold>Катана Дракона"
+  name: "<gradient:#FF4DFE:#FF76FE:#FF4DFE>Катана Дракона</gradient>"
   lore:
-    - "<gray>Способности:"
-    - "<gray>- +15% скорости"
-    - "<gray>- Телепортация вперёд (ПКМ)"
+    - ""
+    - " <white>При нажатии <#FF4D4D>ПКМ"
+    - " <white>телепортирует вперёд."
+    - " <white>Даёт <#4DFF96>+15% <white>к скорости"
+    - ""
 
 enderbow:
   material: BOW
@@ -79,11 +81,11 @@ fugucannon:
 midassword:
   material: NETHERITE_SWORD
   data: 5
-  name: "<b><gradient:#FFAE4D:#FFC357:#FFAE4D>Меч Мидаса</gradient></b>"
+  name: "<reset><white><b><gradient:#FFAE4D:#FFC357:#FFAE4D>Меч Мидаса</gradient></b>"
   lore:
     - ""
     - "<white> При <gradient:#FF4D4D:#FF6666:#FF4D4D>убийстве</gradient> игрока острота"
-    - "<white> меча <gradient:#4DFFAC:#7CFFC2:#4DFFAC>увеличивается</gradient>, а из жертв"
+    - "<reset><white> меча <gradient:#4DFFAC:#7CFFC2:#4DFFAC>увеличивается</gradient>, а из жертв"
     - "<white> выпадают <gradient:#F2FF4D:#F5FF76:#F2FF4D>золотые</gradient> самородки"
     - ""
     - "<gray>(<white>ޗ<gray>) <white>Максимания острота<gray>: <#FFBB47>VIII"
