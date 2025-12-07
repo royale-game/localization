@@ -1,3 +1,4 @@
 player:
   join: "<green>+ <white><player>"
   quit: "<red>- <white><player>"
+no-server-available: "<red>Нет доступных серверов."
