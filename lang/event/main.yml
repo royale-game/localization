@@ -1,4 +1,4 @@
-waiting: "Набор игроков, <gradient:#29FF67:#51FF84:#29FF67>пожалуйста,</gradient> <reset><white> ожидайте"
+waiting: "Набор игроков, <gradient:#29FF67:#51FF84:#29FF67>пожалуйста,</gradient> <reset><white>ожидайте"
 start:
   message: "Игра началась!"
   title: "начало"
