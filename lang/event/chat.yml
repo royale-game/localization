@@ -1,5 +1,6 @@
 chat:
   cooldown: "<gray>Пожалуйста подождите <color:#FFBB47><time> <gray>сек."
+  format: "<type> <player>: <message>"
   type:
     local: "<color:#FFBB47>●</color>"
-    team: "(командный чат)"
+    team: "<color:#FFBB47>Команда №<id></color>"
