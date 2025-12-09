@@ -3,4 +3,4 @@ chat:
   format: "<type> <player>: <message>"
   type:
     local: "<color:#FFBB47>●</color>"
-    global: "<color:aqua></color>"
+    global: "<color:aqua>●</color>"
