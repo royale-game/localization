@@ -1,5 +1,4 @@
 chat:
   type:
     local: "<color:#FFBB47>●</color>"
-    vip: "<yellow>(вип чат)"
-    admin: "<red>(админ чат)"
+    team: "(командный чат)"
