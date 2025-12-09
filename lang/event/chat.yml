@@ -3,4 +3,4 @@ chat:
   format: "<type> <player>: <message>"
   type:
     local: "<color:#FFBB47>●</color>"
-    team: "<color:#FFBB47>Команда №<id></color>"
+    global: "<color:aqua></color>"
