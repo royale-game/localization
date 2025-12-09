@@ -2,5 +2,5 @@ chat:
   cooldown: "<gray>Пожалуйста подождите <color:#FFBB47><time> <gray>сек."
   format: "<type> <group> <player>: <message>"
   type:
-    local: "<color:#FFBB47>●</color>"
-    global: "<color:aqua>●</color>"
+    local: "<color:aqua>●</color>"
+    global: "<color:#FFBB47>●</color>"
