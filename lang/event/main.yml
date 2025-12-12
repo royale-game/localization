@@ -9,6 +9,8 @@ end-close: "Энд закрыт"
 nether-open: "Незер открыт"
 nether-close: "Незер закрыт"
 
+sender-start: "<color:#FFBB47>Игра началась"
+
 cooldown:
   started: "<white>ޗ <red>Подождите ещё <color:#FFBB47><time> <red>секунд перед использованием"
   remaining: "<white>ޗ <red>Подождите ещё <color:#FFBB47><time> <red>секунд перед использованием"
