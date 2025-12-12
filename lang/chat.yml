@@ -1,0 +1,7 @@
+chat:
+  cooldown: "<gray>Пожалуйста подождите <color:#FFBB47><time> <gray>сек."
+  format: "<type> <group> <player>: <message>"
+  format-team: "<gray>(<#FF4D4D>Чат команды<gray>) <white><player></white>: <#FF4D4D><message></#FF4D4D>"
+  type:
+    local: "<color:aqua>●</color>"
+    global: "<color:#FFBB47>●</color>"
