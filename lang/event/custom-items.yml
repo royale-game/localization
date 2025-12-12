@@ -59,15 +59,15 @@ dragonkatana:
 enderbow:
   material: BOW
   data: 2
-  name: "<gold>Эндер-лук"
+  name: "<gradient:#FF29ED:#FF53F1:#FF29ED>Эндер-лук</gradient>"
   lore:
     - ""
-    - "<gray>Легендарный лук, выкованный в самых темных глубинах измерения Края..."
+    - " <white>При нажатии <#FF4D4D>ШИФТ + ЛКМ для переключения режима."
+    - " <white>для <gradient:#29FF9B:#5EFFB4:#29FF9B>переключения</gradient> <white>режима"
     - ""
-    - "<gray>Shift + ЛКМ для переключения режима."
+    - " <white>Режим <gradient:#FF29ED:#FF53F1:#FF29ED>телепортирования:</gradient> выстреливает оком эндера"
+    - " <white>Режим <#FF4D4D>стрельбы:<white> обычная стрельба, 5% шанс появление эндермита."
     - ""
-    - "<gray>Режим телепортирования: выстреливает оком эндера, КД 35 сек."
-    - "<gray>Режим стрельбы: обычная стрельба, 5% шанс спавна эндермита."
 
 fugucannon:
   material: SNOWBALL
@@ -105,11 +105,12 @@ poseidontrident:
 soniccrossbow:
   material: CROSSBOW
   data: 1
-  name: "<gold>Арбалет Соника"
+  name: "<gradient:#29FFF2:#4FFFF4:#29FFF2>Арбалет Соника</gradient>"
   lore:
-    - "<gray>Способности:"
-    - "<gray>- Выстреливает 3 зарядами Вардена"
-    - "<gray>- Взрыв при попадании"
+    - ""
+    - "<white> Выстреливает <#FFBB47>3 зарядами <white>Вардена"
+    - "<white> При попадании происходит <gradient:#FF2929:#FF1E1E:#FF2929>взрыв</gradient>"
+    - ""
 
 thugleggings:
   material: LEATHER_LEGGINGS
