@@ -1,6 +1,7 @@
 chat:
   cooldown: "<gray>Пожалуйста подождите <color:#FFBB47><time> <gray>сек."
   format: "<type> <group> <player>: <message>"
+  no-group-access: "<red>У вас нету группы."
   format-team: "<gray>(<#FF4D4D>Чат команды<gray>) <white><player></white>: <#FF4D4D><mesasage></#FF4D4D>"
   type:
     local: "<color:aqua>●</color>"
