@@ -13,3 +13,38 @@ cooldown:
   started: "<white>ޗ <red>Подождите ещё <color:#FFBB47><time> <red>секунд перед использованием"
   remaining: "<white>ޗ <red>Подождите ещё <color:#FFBB47><time> <red>секунд перед использованием"
   ready: "<white>ß <white>Завершилась перезарядка для <white><item>"
+
+item:
+  book:
+    name: "Крафты"
+  vote:
+    name: "Голосование"
+  cannot-use: "<#FF5E1F>▶ <white>Вы не можете использовать этот предмет"
+  head:
+    use: "<#FF5E1F>▶ <white>Вы использовали голову!"
+  emerald-blade:
+    max-lvl: "<#FF5E1F>▶ <white>Ваш клинок достиг <#C5FF1F>максимального <white>уровня"
+    need-amount: "<#FF5E1F>▶ <white>Для улучшения нужно <#C5FF1F>64 изумруда"
+    success-upgrade: "<#FF5E1F>▶ <white>Вы <#C5FF1F>улучшили <white>свой клинок!"
+  dragon-katana:
+    blocked: "<#FF5E1F>▶ <white>Нельзя телепортироваться в блоки!"
+  midas-sword:
+    sharpness-up: "<#FF5E1F>▶ <white>Меч Мидаса усилился!"
+  poseidon-trident:
+    lightning-blocked: "<#FF5E1F>▶ <white>Нельзя телепортироваться в блоки!"
+  ender-bow:
+    mode-switched: "<#FF5E1F>▶ <white>Режим переключен"
+
+craft:
+  item-unavailable: "<red>Этот предмет недоступен для крафта в этой игре"
+  available-legendary-items:
+    title: "<gold>Легендарные оружия в этой игре:"
+    item: "<gray>• <yellow><name>"
+  available:
+    header: "<gold>Доступные крафты:"
+    item: " <gray>- <yellow><item> <gray>(клик)"
+    hover: "<green>Нажми, чтобы скрафтить"
+  legendary: "<#FF5E1F>▶ <white>Игрок <#C5FF1F><player> <white>скрафтил <item>"
+  limit:
+    player: "<#FF5E1F>▶ <white>Вы исчерпали свой лимит."
+    server: "<#FF5E1F>▶ <white>Этот предмет уже скрафтили."
