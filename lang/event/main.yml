@@ -4,7 +4,7 @@ start:
   title: "начало"
 
 kick:
-is-active: "<white>ޗ <red>Игра уже идёт"
+  is-active: "<white>ޗ <red>Игра уже идёт"
 
 end-open: "Энд открыт"
 end-close: "Энд закрыт"
