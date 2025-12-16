@@ -60,6 +60,7 @@ block:
   mace: "<white>ß <white>Булава запрещена"
 
 deathmatch:
+  start: "<white>ß <white>Дезматч начался!"
   timer:
     title: "<time>"
     subtitle: "до начала"
