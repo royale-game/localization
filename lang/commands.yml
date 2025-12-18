@@ -2,5 +2,5 @@ no-perm: "<white>ޗ <red>У вас недостаточно прав"
 
 invalid-usage:
   first: "<gray>Правильное использование: <gray><command> <white>ޗ"
-  invalid: "<gray>Правильное использование: ޗ "
+  invalid: "<white>ޗ <gray>Правильное использование:"
   separator: "<gray>- <white><command>"
