@@ -11,19 +11,19 @@ gui:
 
   sort:
     legendary:
-      active: "<yellow><b>▶ Сначала легендарные</yellow></b>"
+      active: "<yellow><b>▶ Сначала легендарные</yellow>"
       inactive: "<gray>  Сначала легендарные</gray>"
     
     common:
-      active: "<yellow><b>▶ Сначала обычные</yellow></b>"
+      active: "<yellow><b>▶ Сначала обычные</yellow>"
       inactive: "<gray>  Сначала обычные</gray>"
     
     available:
-      active: "<yellow><b>▶ Доступные в этой игре</yellow></b>"
+      active: "<yellow><b>▶ Доступные в этой игре</yellow>"
       inactive: "<gray>  Доступные в этой игре</gray>"
     
     all:
-      active: "<yellow><b>▶ Все</yellow></b>"
+      active: "<yellow><b>▶ Все</yellow>"
       inactive: "<gray>  Все</gray>"
     
     controls:
