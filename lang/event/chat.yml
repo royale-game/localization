@@ -5,3 +5,6 @@ chat:
   type:
     local: "<color:aqua>●</color>"
     global: "<color:#FFBB47>●</color>"
+  pm:
+    sender: "<color:#FFBB47>(ЛС) <#D83EF1><player> <gray>➜ <#D83EF1>Вы<gray>: <message>"
+    received: "<color:#FFBB47>(ЛС) <#D83EF1>Я <gray>➜ <#D83EF1><player><gray>: <message>"
