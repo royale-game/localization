@@ -3,6 +3,8 @@ start:
   message: "Игра началась!"
   title: "начало"
 
+pvp-allies: "<red>Нельзя бить союзника!"
+
 kick:
   is-active: "<white>ޗ <red>Игра уже идёт"
 
