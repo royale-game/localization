@@ -8,6 +8,9 @@ pvp-allies: "<red>Нельзя бить союзника!"
 kick:
   is-active: "<white>ޗ <red>Игра уже идёт"
 
+pm:
+  empty-message: "<red>Сообщение не должно быть пустым."
+
 end-open: "Энд открыт"
 end-close: "Энд закрыт"
 
