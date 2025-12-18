@@ -1,0 +1,31 @@
+gui:
+  display-name-sort: "<gold><b>Сортировка"
+  
+  avaliable-craft: "<green>✓ Доступно для крафта"
+  unavaliable-craft: "<red>✗ Недоступно в этой игре"
+
+  show-crafts: "<green>▸ Нажмите, чтобы посмотреть рецепт"
+
+  crafts:
+    title: "Список крафтов"
+
+  sort:
+    legendary:
+      active: "<yellow><b>▶ Сначала легендарные</yellow></b>"
+      inactive: "<gray>  Сначала легендарные</gray>"
+    
+    common:
+      active: "<yellow><b>▶ Сначала обычные</yellow></b>"
+      inactive: "<gray>  Сначала обычные</gray>"
+    
+    available:
+      active: "<yellow><b>▶ Доступные в этой игре</yellow></b>"
+      inactive: "<gray>  Доступные в этой игре</gray>"
+    
+    all:
+      active: "<yellow><b>▶ Все</yellow></b>"
+      inactive: "<gray>  Все</gray>"
+    
+    controls:
+      left: "<gray>ЛКМ - следующий тип</gray>"
+      right: "<gray>ПКМ - предыдущий тип</gray>"
