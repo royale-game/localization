@@ -1,5 +1,4 @@
 no-perm: "<white>ޗ <red>У вас недостаточно прав"
-invalid-usage: "<white>ޗ  <red>Неверное использование"
 
 invalid-usage:
   first: "<white>ޗ  <white>Правильное использование: <gray><command>"
