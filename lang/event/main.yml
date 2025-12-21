@@ -1,7 +1,7 @@
 waiting: "Набор игроков, <gradient:#29FF67:#51FF84:#29FF67>пожалуйста,</gradient> <reset><white>ожидайте"
 start:
-  message: "Игра началась!"
-  title: "начало"
+  message: "Игра <gradient:#47FF60:#47FF60:#47FF60>началась!</gradient>"
+  title: "<gradient:#47FF60:#47FF60:#47FF60>Желаем удачи!</gradient>"
 
 pvp-allies: "<red>Нельзя бить союзника!"
 
