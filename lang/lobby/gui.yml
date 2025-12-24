@@ -1,0 +1,10 @@
+title: "Игровые сервера"
+status:
+  waiting: "<green>Набор игроков"
+  active: "<yellow>Идёт игра"
+  inactive: "<red>Оффлайн"
+item:
+  name: "<gold><server>"
+  lore:
+    - "<white>Статус: <status>"
+    - "<white>Онлайн: <gold><players><gray>/<yellow><maxPlayers>"
