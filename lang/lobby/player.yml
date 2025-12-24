@@ -1,4 +1,6 @@
 player:
   join: "<green>+ <white><player>"
   quit: "<red>- <white><player>"
+
+error: "<red>Ошибка. обратитесь к администрации."
 no-server-available: "<red>Нет доступных серверов."
