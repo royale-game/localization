@@ -1,5 +1,4 @@
 gui:
-  
   available-craft: "<green>✓ Доступно для крафта"
   unavailable-craft: "<red>✗ Недоступно в этой игре"
 
