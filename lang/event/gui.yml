@@ -8,7 +8,7 @@ gui:
     title: "Список крафтов"
 
   sort:
-    display-name-sort: "<gold><b>Сортировка"
+    title: "<gold><b>Сортировка"
     legendary:
       active: "<yellow><b>▶ Сначала легендарные</yellow>"
       inactive: "<gray>  Сначала легендарные</gray>"
