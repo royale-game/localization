@@ -1,7 +1,7 @@
 gui:
   
-  avaliable-craft: "<green>✓ Доступно для крафта"
-  unavaliable-craft: "<red>✗ Недоступно в этой игре"
+  available-craft: "<green>✓ Доступно для крафта"
+  unavailable-craft: "<red>✗ Недоступно в этой игре"
 
   show-crafts: "<green>▸ Нажмите, чтобы посмотреть рецепт"
 
