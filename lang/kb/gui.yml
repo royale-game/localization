@@ -1,5 +1,4 @@
 gui:
-  display-name-sort: "<gold><b>Сортировка"
   
   avaliable-craft: "<green>✓ Доступно для крафта"
   unavaliable-craft: "<red>✗ Недоступно в этой игре"
@@ -10,6 +9,7 @@ gui:
     title: "Список крафтов"
 
   sort:
+    displayname: "<gold><b>Сортировка"
     legendary:
       active: "<yellow><b>▶ Сначала легендарные</yellow></b>"
       inactive: "<gray>  Сначала легендарные</gray>"
