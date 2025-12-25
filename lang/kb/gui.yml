@@ -9,7 +9,7 @@ gui:
     title: "Список крафтов"
 
   sort:
-    displayname: "<gold><b>Сортировка"
+    title: "<gold><b>Сортировка"
     legendary:
       active: "<yellow><b>▶ Сначала легендарные</yellow></b>"
       inactive: "<gray>  Сначала легендарные</gray>"
