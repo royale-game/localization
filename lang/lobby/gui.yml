@@ -14,8 +14,8 @@ gui:
         name: "<red>Оффлайн"
         material: RED_WOOL
         data: 3
-  item:
-    name: "<gold><server>"
-    lore:
-      - "<white>Статус: <status>"
-      - "<white>Онлайн: <gold><players><gray>/<yellow><max-players>"
+    item:
+      name: "<gold><server>"
+      lore:
+        - "<white>Статус: <status>"
+        - "<white>Онлайн: <gold><players><gray>/<yellow><max-players>"
