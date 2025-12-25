@@ -1,19 +1,21 @@
-title: "Игровые сервера"
-status:
-  waiting: 
-    name: "<green>Набор игроков"
-    material: LIME_WOOL
-    data: 0
-  active: 
-    name: "<yellow>Идёт игра"
-    material: YELLOW_WOOL
-    data: 1
-  inactive: 
-    name: "<red>Оффлайн"
-    material: RED_WOOL
-    data: 3
-item:
-  name: "<gold><server>"
-  lore:
-    - "<white>Статус: <status>"
-    - "<white>Онлайн: <gold><players><gray>/<yellow><max-players>"
+gui:
+  choosing-server:
+    title: "Игровые сервера"
+    status:
+      waiting: 
+        name: "<green>Набор игроков"
+        material: LIME_WOOL
+        data: 0
+      active: 
+        name: "<yellow>Идёт игра"
+        material: YELLOW_WOOL
+        data: 1
+      inactive: 
+        name: "<red>Оффлайн"
+        material: RED_WOOL
+        data: 3
+  item:
+    name: "<gold><server>"
+    lore:
+      - "<white>Статус: <status>"
+      - "<white>Онлайн: <gold><players><gray>/<yellow><max-players>"
